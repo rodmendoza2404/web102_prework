@@ -73,3 +73,13 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+.stats-container {
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Adjusts spacing between elements */
+}
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
